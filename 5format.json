@@ -1,0 +1,19 @@
+{
+  "appended": 
+  {
+    "email_validation": 
+    {
+      "email": 
+      {
+        "address": "testtest@gmail.com",
+        "error": ["Email account invalid"],
+        "error_code": null,
+        "outcome": "failure",
+        "reason": ["email account invalid"],
+        "status": "invalid"
+      },
+      "outcome": "(failure)",
+      "reason": "email account invalid"
+    }
+  }
+}
