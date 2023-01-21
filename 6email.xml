@@ -1,0 +1,28 @@
+Can you please look at the lead received today with the name Diana Prince submitted at 10:47 AM? The format is wrong. The POST request to our system is:
+
+<?xml version="1.0" ?>
+<leadInformation><leadApplication>
+<TrackingId>4747</TrackingId>
+<SourcedID>065FA3-065FA3</SourcedID>
+<FirstName>Diana</FirstName>
+<LastName>Prince</LastName>
+<Employer>Justice League</Employer>
+<EmploymentJobTitle>Wonder Woman</EmploymentJobTitle>
+</leadApplication></leadInformation>
+
+Hello,
+
+Thank you for contacting Active Prospect. We are sorry to hear about this issue.
+
+It appears that you are receiving XML data format as a default instead of JSON.
+
+At this stage, we suggest to make sure that you pass Accept header as "application/json".
+
+We trust you will find this information of assistance.
+
+Please do not hesitate to get back to us should you have any further queries.
+
+Regards, 
+
+Richard
+Active Prospect Support
