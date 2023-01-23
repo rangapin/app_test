@@ -1,0 +1,27 @@
+<!--  
+ . I have tried to use both curl and postman
+ . Main issue is that if I enter this URL in a browser I get:
+    {"message":"Flow is disabled"}
+ . best response I had using curl and postman was 404.
+ . my main workflow look something like :
+
+ - Open Postman.
+ - Select the "POST" method.
+ - In the "URL" field, enter the following endpoint: https://next.leadconduit.com/flows/581030a78203060429b9d861/sources/5810300fcc72356bf432d4a7/submit
+ - In the "Body" section, select "raw" and "JSON (application/json)" as the format.
+ - In the Body field, enter the lead data in JSON format.
+ - Click "Send" 
+
+Using Curl:
+
+curl -X POST -H "Content-Type: application/json" -d '{"first_name": "John", "last_name": "Doe", "email": "johndoe@example.com", "phone": "555-555-5555"}' https://app.leadconduit.com/flows/581030a78203060429b9d861/sources/5810300fcc72356bf432d4a7/submit
+
+-->
+
+https://next.leadconduit.com/flows/581030a78203060429b9d861/sources/5810300fcc72356bf432d4a7/docs
+
+Given the above, please submit the required data and provide both the lead ID and the status from the response.
+
+ - dont use the lead import option
+ - the example is just an example
+ - real data is preferable
