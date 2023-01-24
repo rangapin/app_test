@@ -1,2 +1,4 @@
 curl -d "values[]=I am a banana" -d "values[]=I live in a giant bucket" -d "values[]=I am the Queen of France"                 
 "https://app.suppressionlist.com/lists/my_spoon_is_too_big/items/" -H 'Accept: text/xml'-H 'Content-Type: application/json' -uAPI:065FA3065FA3065FA3065FA3
+
+curl -X PUT https://app.suppressionlist.com/lists/my_spoon_is_too_big/items -H 'Accept: text/xml' -H 'Content-Type: application/json' -uAPI:065FA3065FA3065FA3065FA3 -d '{"values":["I am a banana", "I live in a giant bucket", "I am the Queen of France"]}'
